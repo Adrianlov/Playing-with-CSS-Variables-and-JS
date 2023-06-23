@@ -1,0 +1,52 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body{
+    text-align: center;
+    background-color: #1e81b0;
+}
+
+h2{
+    font-size: 3rem;
+    color: #dbe2db ;
+    text-decoration: underline;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input{
+    width: 350px;
+    margin: 15px;
+  
+}
+
+label{
+    font-size: 2rem;
+    text-decoration:solid;
+    text-shadow: 20px;
+    color: #dbe2db;
+}
+
+#color{
+    width: 150px;
+    height: 46px;
+    padding: 0;
+}
+
+
+img{
+    width: 1000px;
+    background: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    
+}
